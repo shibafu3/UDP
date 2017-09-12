@@ -67,7 +67,7 @@ int recieve() {
     memset(buf, 0, sizeof(buf)); // 複数回受信するときは前回値が残らないようにこのように バッファを0でクリアするのが一般的 メモリー操作関数
 
     // 受信
-    // recv(ソケット, 送信するデータ, データのバイト数, フラグ);
+    // recv(ソケット, 受信するデータの格納先, データのバイト数, フラグ);
     // バインドしていない場合は recvfrom(sock, buf, 5, 0, (struct sockaddr *)&addr, sizeof(addr)); でもOK？
     recv(sock, buf, sizeof(buf), 0);
 
