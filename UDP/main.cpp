@@ -109,7 +109,7 @@ int send() {
     // sendto(ソケット, 送信するデータ, データのバイト数, フラグ, アドレス情報, アドレス情報のサイズ);
     // 送信するデータに直接文字列 "HELLO" 等を入れることもできる
     // バインドしている場合は send(sock, buf, 5, 0); でもOK？
-    sendto(sock, buf, 5, 0, (struct sockaddr *)&addr, sizeof(addr));
+    sendto(sock, buf,  sizeof(buf), 0, (struct sockaddr *)&addr, sizeof(addr));
 
     // socketの破棄
     closesocket(sock);
