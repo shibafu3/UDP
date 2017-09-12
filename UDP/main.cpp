@@ -7,6 +7,9 @@
 
 #include <iostream>
 
+// inet_addr()関数で警告が出る場合は以下で警告を無効化する。
+#pragma warning(disable:4996) 
+
 // 流れ
 // ソケット通信winsockの立ち上げ
 // socketの作成

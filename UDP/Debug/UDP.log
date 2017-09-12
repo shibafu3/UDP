@@ -1,5 +1,3 @@
 ﻿  main.cpp
-c:\users\0133752\documents\visual studio 2017\projects\udp\udp\main.cpp(97): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\um\winsock2.h(1828): note: 'inet_addr' の宣言を確認してください
-  UDP.vcxproj -> c:\users\0133752\documents\visual studio 2017\Projects\UDP\Debug\UDP.exe
-  UDP.vcxproj -> c:\users\0133752\documents\visual studio 2017\Projects\UDP\Debug\UDP.pdb (Partial PDB)
+  UDP.vcxproj -> C:\Users\0133752\documents\visual studio 2017\Projects\UDP\Debug\UDP.exe
+  UDP.vcxproj -> C:\Users\0133752\documents\visual studio 2017\Projects\UDP\Debug\UDP.pdb (Partial PDB)
