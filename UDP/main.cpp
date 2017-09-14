@@ -1,15 +1,3 @@
-//TCP,UDP通信用ライブラリ
-#pragma comment(lib, "ws2_32.lib")
-
-//TCP,UDP通信用ヘッダ
-//#include <sys/sock.h> //linux
-#include <WinSock2.h> //windows
-
-#include <iostream>
-
-// inet_addr()関数で警告が出る場合は以下で警告を無効化する。
-#pragma warning(disable:4996) 
-
 // 流れ
 // ソケット通信winsockの立ち上げ
 // socketの作成
@@ -31,6 +19,19 @@
 // http://www.eonet.ne.jp/~maeda/winc/udp.htm
 // http://research.nii.ac.jp/~ichiro/syspro98/
 // http://keicode.com/winprimer/wp201.php
+
+
+//TCP,UDP通信用ライブラリ
+#pragma comment(lib, "ws2_32.lib")
+
+//TCP,UDP通信用ヘッダ
+//#include <sys/sock.h> //linux
+#include <WinSock2.h> //windows
+
+#include <iostream>
+
+// inet_addr()関数で警告が出る場合は以下で警告を無効化する。
+#pragma warning(disable:4996) 
 
 // 受信関数
 int recieve() {
